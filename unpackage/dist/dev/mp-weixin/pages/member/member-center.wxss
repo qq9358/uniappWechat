@@ -24,23 +24,51 @@
 /* 垂直间距 */
 /* 透明度 */
 /* 文章场景相关 */
-.poster.data-v-66ed2451 {
+.poster.data-v-1a9815de {
   height: 100px;
   color: white;
   background-color: #19a0f0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
 }
-.poster-headimg.data-v-66ed2451 {
+.poster-headimg.data-v-1a9815de {
     height: 60px;
     width: 60px;
     border-radius: 50%;
     overflow: hidden;
     margin-left: 15px;
 }
-.poster-name.data-v-66ed2451 {
+.poster-name.data-v-1a9815de {
     font-weight: bold;
     margin-left: 15px;
 }
-.icon-vertical-center.data-v-66ed2451 .view__left-icon {
-  margin-top: -2px;
+.poster .head-image.data-v-1a9815de {
+    width: 100%;
+    height: 100%;
+}
+.view-cell.data-v-1a9815de {
+  background-color: #ffffff;
+}
+.view-cell .icon-vertical-center.data-v-1a9815de {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+            align-items: center;
+    padding: 10px 16px 10px 0px;
+    margin-left: 16px;
+    border-bottom: 1px solid #efefef;
+}
+.view-cell .icon-vertical-center.data-v-1a9815de .view__left-icon {
+      margin-top: -2px;
+}
+.view-cell .icon-vertical-center .title-text.data-v-1a9815de {
+      width: calc(100vw - 60px);
+      padding: 0px 5px 0px 5px;
 }
 

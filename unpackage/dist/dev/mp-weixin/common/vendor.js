@@ -7614,9 +7614,9 @@ module.exports = g;
 
 /***/ }),
 /* 4 */
-/*!****************************************************!*\
-  !*** C:/Code/Self/HBuilder/uniUi/uniUi/pages.json ***!
-  \****************************************************/
+/*!**************************************************!*\
+  !*** C:/Code/Self/HBuilder/wechatGit/pages.json ***!
+  \**************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -8520,20 +8520,20 @@ module.exports = {"_from":"@dcloudio/uni-stat@next","_id":"@dcloudio/uni-stat@2.
 
 /***/ }),
 /* 7 */
-/*!*********************************************************************!*\
-  !*** C:/Code/Self/HBuilder/uniUi/uniUi/pages.json?{"type":"style"} ***!
-  \*********************************************************************/
+/*!*******************************************************************!*\
+  !*** C:/Code/Self/HBuilder/wechatGit/pages.json?{"type":"style"} ***!
+  \*******************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _default = { "pages": { "pages/index/index": {}, "pages/ticket/buy-ticket": { "navigationBarTitleText": "提交订单" }, "pages/order/order": { "navigationBarTitleText": "我的订单" }, "pages/member/member-center": { "navigationBarTitleText": "个人中心" }, "pages/payment/wx-js-pay": { "navigationBarTitleText": "订单支付" }, "pages/order/order-detail": { "navigationBarTitleText": "订单详情", "enablePullDownRefresh": true }, "pages/member/my-ticket": { "navigationBarTitleText": "我的门票", "enablePullDownRefresh": true }, "pages/member/enroll-face": { "navigationBarTitleText": "登记人脸", "enablePullDownRefresh": true } }, "globalStyle": { "navigationBarTextStyle": "white", "navigationBarTitleText": "uni-app", "navigationBarBackgroundColor": "#19a0f0", "backgroundColor": "#FFFFFF" } };exports.default = _default;
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _default = { "pages": { "pages/index/index": {}, "pages/ticket/buy-ticket": { "navigationBarTitleText": "提交订单" }, "pages/order/order": { "navigationBarTitleText": "我的订单" }, "pages/member/member-center": { "navigationBarTitleText": "我的" }, "pages/payment/wx-js-pay": { "navigationBarTitleText": "订单支付" }, "pages/order/order-detail": { "navigationBarTitleText": "订单详情", "enablePullDownRefresh": true }, "pages/member/my-ticket": { "navigationBarTitleText": "我的门票", "enablePullDownRefresh": true }, "pages/member/enroll-face": { "navigationBarTitleText": "登记人脸", "enablePullDownRefresh": true } }, "globalStyle": { "navigationBarTextStyle": "white", "navigationBarTitleText": "uni-app", "navigationBarBackgroundColor": "#19a0f0", "backgroundColor": "#FFFFFF" } };exports.default = _default;
 
 /***/ }),
 /* 8 */
-/*!********************************************************************!*\
-  !*** C:/Code/Self/HBuilder/uniUi/uniUi/pages.json?{"type":"stat"} ***!
-  \********************************************************************/
+/*!******************************************************************!*\
+  !*** C:/Code/Self/HBuilder/wechatGit/pages.json?{"type":"stat"} ***!
+  \******************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -8545,9 +8545,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /* 10 */,
 /* 11 */,
 /* 12 */
-/*!********************************************************!*\
-  !*** C:/Code/Self/HBuilder/uniUi/uniUi/utils/dayjs.js ***!
-  \********************************************************/
+/*!******************************************************!*\
+  !*** C:/Code/Self/HBuilder/wechatGit/utils/dayjs.js ***!
+  \******************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -8606,9 +8606,9 @@ _dayjs.default.prototype.addYears = function (value) {
 
 /***/ }),
 /* 13 */
-/*!*************************************************************************!*\
-  !*** C:/Code/Self/HBuilder/uniUi/uniUi/node_modules/dayjs/dayjs.min.js ***!
-  \*************************************************************************/
+/*!***********************************************************************!*\
+  !*** C:/Code/Self/HBuilder/wechatGit/node_modules/dayjs/dayjs.min.js ***!
+  \***********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -8616,9 +8616,9 @@ _dayjs.default.prototype.addYears = function (value) {
 
 /***/ }),
 /* 14 */
-/*!*************************************************************************************!*\
-  !*** C:/Code/Self/HBuilder/uniUi/uniUi/node_modules/dayjs/plugin/isSameOrBefore.js ***!
-  \*************************************************************************************/
+/*!***********************************************************************************!*\
+  !*** C:/Code/Self/HBuilder/wechatGit/node_modules/dayjs/plugin/isSameOrBefore.js ***!
+  \***********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -8626,9 +8626,9 @@ _dayjs.default.prototype.addYears = function (value) {
 
 /***/ }),
 /* 15 */
-/*!************************************************************************************!*\
-  !*** C:/Code/Self/HBuilder/uniUi/uniUi/node_modules/dayjs/plugin/isSameOrAfter.js ***!
-  \************************************************************************************/
+/*!**********************************************************************************!*\
+  !*** C:/Code/Self/HBuilder/wechatGit/node_modules/dayjs/plugin/isSameOrAfter.js ***!
+  \**********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -8636,9 +8636,9 @@ _dayjs.default.prototype.addYears = function (value) {
 
 /***/ }),
 /* 16 */
-/*!********************************************************************************!*\
-  !*** C:/Code/Self/HBuilder/uniUi/uniUi/node_modules/dayjs/plugin/isBetween.js ***!
-  \********************************************************************************/
+/*!******************************************************************************!*\
+  !*** C:/Code/Self/HBuilder/wechatGit/node_modules/dayjs/plugin/isBetween.js ***!
+  \******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -8776,9 +8776,9 @@ function normalizeComponent (
 
 /***/ }),
 /* 20 */
-/*!***********************************************************!*\
-  !*** C:/Code/Self/HBuilder/uniUi/uniUi/static/index.scss ***!
-  \***********************************************************/
+/*!*********************************************************!*\
+  !*** C:/Code/Self/HBuilder/wechatGit/static/index.scss ***!
+  \*********************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -8788,9 +8788,9 @@ function normalizeComponent (
 
 /***/ }),
 /* 21 */
-/*!******************************************************************!*\
-  !*** C:/Code/Self/HBuilder/uniUi/uniUi/static/icon/iconfont.css ***!
-  \******************************************************************/
+/*!****************************************************************!*\
+  !*** C:/Code/Self/HBuilder/wechatGit/static/icon/iconfont.css ***!
+  \****************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -8800,9 +8800,9 @@ function normalizeComponent (
 
 /***/ }),
 /* 22 */
-/*!********************************************************!*\
-  !*** C:/Code/Self/HBuilder/uniUi/uniUi/store/index.js ***!
-  \********************************************************/
+/*!******************************************************!*\
+  !*** C:/Code/Self/HBuilder/wechatGit/store/index.js ***!
+  \******************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -9821,9 +9821,9 @@ var index_esm = {
 
 /***/ }),
 /* 24 */
-/*!*********************************************************!*\
-  !*** C:/Code/Self/HBuilder/uniUi/uniUi/store/consts.js ***!
-  \*********************************************************/
+/*!*******************************************************!*\
+  !*** C:/Code/Self/HBuilder/wechatGit/store/consts.js ***!
+  \*******************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -9839,9 +9839,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 25 */
-/*!****************************************************************!*\
-  !*** C:/Code/Self/HBuilder/uniUi/uniUi/store/modules/order.js ***!
-  \****************************************************************/
+/*!**************************************************************!*\
+  !*** C:/Code/Self/HBuilder/wechatGit/store/modules/order.js ***!
+  \**************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -10669,9 +10669,9 @@ if (hadRuntime) {
 
 /***/ }),
 /* 29 */
-/*!******************************************************************!*\
-  !*** C:/Code/Self/HBuilder/uniUi/uniUi/services/orderService.js ***!
-  \******************************************************************/
+/*!****************************************************************!*\
+  !*** C:/Code/Self/HBuilder/wechatGit/services/orderService.js ***!
+  \****************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -10758,9 +10758,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 30 */
-/*!*******************************************************!*\
-  !*** C:/Code/Self/HBuilder/uniUi/uniUi/utils/ajax.js ***!
-  \*******************************************************/
+/*!*****************************************************!*\
+  !*** C:/Code/Self/HBuilder/wechatGit/utils/ajax.js ***!
+  \*****************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -10772,8 +10772,8 @@ var _qs = _interopRequireDefault(__webpack_require__(/*! qs */ 60));function _in
 // 时间戳
 var NewTimeStamp = new Date().getTime();
 _axios.default.defaults.timeout = 30000;
-_axios.default.defaults.baseURL = 'https://y1.sz-egoal.cn/';
-// axios.defaults.baseURL = 'http://localhost:54474';
+// axios.defaults.baseURL = 'https://y1.sz-egoal.cn/';
+_axios.default.defaults.baseURL = 'http://localhost:54474';
 // axios.defaults.headers.post[ 'Content-Type' ] = 'application/x-www-form-urlencoded;charset=UTF-8';
 _axios.default.defaults.adapter = function (config) {
   return new Promise(function (resolve, reject) {
@@ -10842,9 +10842,9 @@ Instance();var _default =
 
 /***/ }),
 /* 31 */
-/*!*********************************************************************!*\
-  !*** C:/Code/Self/HBuilder/uniUi/uniUi/node_modules/axios/index.js ***!
-  \*********************************************************************/
+/*!*******************************************************************!*\
+  !*** C:/Code/Self/HBuilder/wechatGit/node_modules/axios/index.js ***!
+  \*******************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -10852,9 +10852,9 @@ module.exports = __webpack_require__(/*! ./lib/axios */ 32);
 
 /***/ }),
 /* 32 */
-/*!*************************************************************************!*\
-  !*** C:/Code/Self/HBuilder/uniUi/uniUi/node_modules/axios/lib/axios.js ***!
-  \*************************************************************************/
+/*!***********************************************************************!*\
+  !*** C:/Code/Self/HBuilder/wechatGit/node_modules/axios/lib/axios.js ***!
+  \***********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -10915,9 +10915,9 @@ module.exports.default = axios;
 
 /***/ }),
 /* 33 */
-/*!*************************************************************************!*\
-  !*** C:/Code/Self/HBuilder/uniUi/uniUi/node_modules/axios/lib/utils.js ***!
-  \*************************************************************************/
+/*!***********************************************************************!*\
+  !*** C:/Code/Self/HBuilder/wechatGit/node_modules/axios/lib/utils.js ***!
+  \***********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -11258,9 +11258,9 @@ module.exports = {
 
 /***/ }),
 /* 34 */
-/*!********************************************************************************!*\
-  !*** C:/Code/Self/HBuilder/uniUi/uniUi/node_modules/axios/lib/helpers/bind.js ***!
-  \********************************************************************************/
+/*!******************************************************************************!*\
+  !*** C:/Code/Self/HBuilder/wechatGit/node_modules/axios/lib/helpers/bind.js ***!
+  \******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -11310,9 +11310,9 @@ function isSlowBuffer (obj) {
 
 /***/ }),
 /* 36 */
-/*!******************************************************************************!*\
-  !*** C:/Code/Self/HBuilder/uniUi/uniUi/node_modules/axios/lib/core/Axios.js ***!
-  \******************************************************************************/
+/*!****************************************************************************!*\
+  !*** C:/Code/Self/HBuilder/wechatGit/node_modules/axios/lib/core/Axios.js ***!
+  \****************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -11406,9 +11406,9 @@ module.exports = Axios;
 
 /***/ }),
 /* 37 */
-/*!************************************************************************************!*\
-  !*** C:/Code/Self/HBuilder/uniUi/uniUi/node_modules/axios/lib/helpers/buildURL.js ***!
-  \************************************************************************************/
+/*!**********************************************************************************!*\
+  !*** C:/Code/Self/HBuilder/wechatGit/node_modules/axios/lib/helpers/buildURL.js ***!
+  \**********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -11487,9 +11487,9 @@ module.exports = function buildURL(url, params, paramsSerializer) {
 
 /***/ }),
 /* 38 */
-/*!*******************************************************************************************!*\
-  !*** C:/Code/Self/HBuilder/uniUi/uniUi/node_modules/axios/lib/core/InterceptorManager.js ***!
-  \*******************************************************************************************/
+/*!*****************************************************************************************!*\
+  !*** C:/Code/Self/HBuilder/wechatGit/node_modules/axios/lib/core/InterceptorManager.js ***!
+  \*****************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -11549,9 +11549,9 @@ module.exports = InterceptorManager;
 
 /***/ }),
 /* 39 */
-/*!****************************************************************************************!*\
-  !*** C:/Code/Self/HBuilder/uniUi/uniUi/node_modules/axios/lib/core/dispatchRequest.js ***!
-  \****************************************************************************************/
+/*!**************************************************************************************!*\
+  !*** C:/Code/Self/HBuilder/wechatGit/node_modules/axios/lib/core/dispatchRequest.js ***!
+  \**************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -11645,9 +11645,9 @@ module.exports = function dispatchRequest(config) {
 
 /***/ }),
 /* 40 */
-/*!**************************************************************************************!*\
-  !*** C:/Code/Self/HBuilder/uniUi/uniUi/node_modules/axios/lib/core/transformData.js ***!
-  \**************************************************************************************/
+/*!************************************************************************************!*\
+  !*** C:/Code/Self/HBuilder/wechatGit/node_modules/axios/lib/core/transformData.js ***!
+  \************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -11675,9 +11675,9 @@ module.exports = function transformData(data, headers, fns) {
 
 /***/ }),
 /* 41 */
-/*!***********************************************************************************!*\
-  !*** C:/Code/Self/HBuilder/uniUi/uniUi/node_modules/axios/lib/cancel/isCancel.js ***!
-  \***********************************************************************************/
+/*!*********************************************************************************!*\
+  !*** C:/Code/Self/HBuilder/wechatGit/node_modules/axios/lib/cancel/isCancel.js ***!
+  \*********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -11690,9 +11690,9 @@ module.exports = function isCancel(value) {
 
 /***/ }),
 /* 42 */
-/*!****************************************************************************!*\
-  !*** C:/Code/Self/HBuilder/uniUi/uniUi/node_modules/axios/lib/defaults.js ***!
-  \****************************************************************************/
+/*!**************************************************************************!*\
+  !*** C:/Code/Self/HBuilder/wechatGit/node_modules/axios/lib/defaults.js ***!
+  \**************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -11795,7 +11795,7 @@ utils.forEach(['post', 'put', 'patch'], function forEachMethodWithData(method) {
 });
 
 module.exports = defaults;
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../../../../../../迅雷下载/HBuilderX.2.6.5.20200314.full/HBuilderX/plugins/uniapp-cli/node_modules/node-libs-browser/mock/process.js */ 43)))
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../../../../../迅雷下载/HBuilderX.2.6.5.20200314.full/HBuilderX/plugins/uniapp-cli/node_modules/node-libs-browser/mock/process.js */ 43)))
 
 /***/ }),
 /* 43 */
@@ -12156,9 +12156,9 @@ var substr = 'ab'.substr(-1) === 'b'
 
 /***/ }),
 /* 45 */
-/*!***********************************************************************************************!*\
-  !*** C:/Code/Self/HBuilder/uniUi/uniUi/node_modules/axios/lib/helpers/normalizeHeaderName.js ***!
-  \***********************************************************************************************/
+/*!*********************************************************************************************!*\
+  !*** C:/Code/Self/HBuilder/wechatGit/node_modules/axios/lib/helpers/normalizeHeaderName.js ***!
+  \*********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -12178,9 +12178,9 @@ module.exports = function normalizeHeaderName(headers, normalizedName) {
 
 /***/ }),
 /* 46 */
-/*!********************************************************************************!*\
-  !*** C:/Code/Self/HBuilder/uniUi/uniUi/node_modules/axios/lib/adapters/xhr.js ***!
-  \********************************************************************************/
+/*!******************************************************************************!*\
+  !*** C:/Code/Self/HBuilder/wechatGit/node_modules/axios/lib/adapters/xhr.js ***!
+  \******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -12362,9 +12362,9 @@ module.exports = function xhrAdapter(config) {
 
 /***/ }),
 /* 47 */
-/*!*******************************************************************************!*\
-  !*** C:/Code/Self/HBuilder/uniUi/uniUi/node_modules/axios/lib/core/settle.js ***!
-  \*******************************************************************************/
+/*!*****************************************************************************!*\
+  !*** C:/Code/Self/HBuilder/wechatGit/node_modules/axios/lib/core/settle.js ***!
+  \*****************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -12397,9 +12397,9 @@ module.exports = function settle(resolve, reject, response) {
 
 /***/ }),
 /* 48 */
-/*!************************************************************************************!*\
-  !*** C:/Code/Self/HBuilder/uniUi/uniUi/node_modules/axios/lib/core/createError.js ***!
-  \************************************************************************************/
+/*!**********************************************************************************!*\
+  !*** C:/Code/Self/HBuilder/wechatGit/node_modules/axios/lib/core/createError.js ***!
+  \**********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -12425,9 +12425,9 @@ module.exports = function createError(message, config, code, request, response) 
 
 /***/ }),
 /* 49 */
-/*!*************************************************************************************!*\
-  !*** C:/Code/Self/HBuilder/uniUi/uniUi/node_modules/axios/lib/core/enhanceError.js ***!
-  \*************************************************************************************/
+/*!***********************************************************************************!*\
+  !*** C:/Code/Self/HBuilder/wechatGit/node_modules/axios/lib/core/enhanceError.js ***!
+  \***********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -12477,9 +12477,9 @@ module.exports = function enhanceError(error, config, code, request, response) {
 
 /***/ }),
 /* 50 */
-/*!****************************************************************************************!*\
-  !*** C:/Code/Self/HBuilder/uniUi/uniUi/node_modules/axios/lib/helpers/parseHeaders.js ***!
-  \****************************************************************************************/
+/*!**************************************************************************************!*\
+  !*** C:/Code/Self/HBuilder/wechatGit/node_modules/axios/lib/helpers/parseHeaders.js ***!
+  \**************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -12540,9 +12540,9 @@ module.exports = function parseHeaders(headers) {
 
 /***/ }),
 /* 51 */
-/*!*******************************************************************************************!*\
-  !*** C:/Code/Self/HBuilder/uniUi/uniUi/node_modules/axios/lib/helpers/isURLSameOrigin.js ***!
-  \*******************************************************************************************/
+/*!*****************************************************************************************!*\
+  !*** C:/Code/Self/HBuilder/wechatGit/node_modules/axios/lib/helpers/isURLSameOrigin.js ***!
+  \*****************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -12617,9 +12617,9 @@ function nonStandardBrowserEnv() {
 
 /***/ }),
 /* 52 */
-/*!***********************************************************************************!*\
-  !*** C:/Code/Self/HBuilder/uniUi/uniUi/node_modules/axios/lib/helpers/cookies.js ***!
-  \***********************************************************************************/
+/*!*********************************************************************************!*\
+  !*** C:/Code/Self/HBuilder/wechatGit/node_modules/axios/lib/helpers/cookies.js ***!
+  \*********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -12679,9 +12679,9 @@ function nonStandardBrowserEnv() {
 
 /***/ }),
 /* 53 */
-/*!*****************************************************************************************!*\
-  !*** C:/Code/Self/HBuilder/uniUi/uniUi/node_modules/axios/lib/helpers/isAbsoluteURL.js ***!
-  \*****************************************************************************************/
+/*!***************************************************************************************!*\
+  !*** C:/Code/Self/HBuilder/wechatGit/node_modules/axios/lib/helpers/isAbsoluteURL.js ***!
+  \***************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -12703,9 +12703,9 @@ module.exports = function isAbsoluteURL(url) {
 
 /***/ }),
 /* 54 */
-/*!***************************************************************************************!*\
-  !*** C:/Code/Self/HBuilder/uniUi/uniUi/node_modules/axios/lib/helpers/combineURLs.js ***!
-  \***************************************************************************************/
+/*!*************************************************************************************!*\
+  !*** C:/Code/Self/HBuilder/wechatGit/node_modules/axios/lib/helpers/combineURLs.js ***!
+  \*************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -12727,9 +12727,9 @@ module.exports = function combineURLs(baseURL, relativeURL) {
 
 /***/ }),
 /* 55 */
-/*!************************************************************************************!*\
-  !*** C:/Code/Self/HBuilder/uniUi/uniUi/node_modules/axios/lib/core/mergeConfig.js ***!
-  \************************************************************************************/
+/*!**********************************************************************************!*\
+  !*** C:/Code/Self/HBuilder/wechatGit/node_modules/axios/lib/core/mergeConfig.js ***!
+  \**********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -12788,9 +12788,9 @@ module.exports = function mergeConfig(config1, config2) {
 
 /***/ }),
 /* 56 */
-/*!*********************************************************************************!*\
-  !*** C:/Code/Self/HBuilder/uniUi/uniUi/node_modules/axios/lib/cancel/Cancel.js ***!
-  \*********************************************************************************/
+/*!*******************************************************************************!*\
+  !*** C:/Code/Self/HBuilder/wechatGit/node_modules/axios/lib/cancel/Cancel.js ***!
+  \*******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -12817,9 +12817,9 @@ module.exports = Cancel;
 
 /***/ }),
 /* 57 */
-/*!**************************************************************************************!*\
-  !*** C:/Code/Self/HBuilder/uniUi/uniUi/node_modules/axios/lib/cancel/CancelToken.js ***!
-  \**************************************************************************************/
+/*!************************************************************************************!*\
+  !*** C:/Code/Self/HBuilder/wechatGit/node_modules/axios/lib/cancel/CancelToken.js ***!
+  \************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -12884,9 +12884,9 @@ module.exports = CancelToken;
 
 /***/ }),
 /* 58 */
-/*!**********************************************************************************!*\
-  !*** C:/Code/Self/HBuilder/uniUi/uniUi/node_modules/axios/lib/helpers/spread.js ***!
-  \**********************************************************************************/
+/*!********************************************************************************!*\
+  !*** C:/Code/Self/HBuilder/wechatGit/node_modules/axios/lib/helpers/spread.js ***!
+  \********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -12921,9 +12921,9 @@ module.exports = function spread(callback) {
 
 /***/ }),
 /* 59 */
-/*!******************************************************************!*\
-  !*** C:/Code/Self/HBuilder/uniUi/uniUi/services/tokenService.js ***!
-  \******************************************************************/
+/*!****************************************************************!*\
+  !*** C:/Code/Self/HBuilder/wechatGit/services/tokenService.js ***!
+  \****************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -13624,9 +13624,9 @@ module.exports = function (str, opts) {
 
 /***/ }),
 /* 65 */
-/*!***************************************************************!*\
-  !*** C:/Code/Self/HBuilder/uniUi/uniUi/store/modules/home.js ***!
-  \***************************************************************/
+/*!*************************************************************!*\
+  !*** C:/Code/Self/HBuilder/wechatGit/store/modules/home.js ***!
+  \*************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -13664,9 +13664,9 @@ var _consts = _interopRequireDefault(__webpack_require__(/*! ./../consts.js */ 2
 
 /***/ }),
 /* 66 */
-/*!********************************************************************!*\
-  !*** C:/Code/Self/HBuilder/uniUi/uniUi/services/settingService.js ***!
-  \********************************************************************/
+/*!******************************************************************!*\
+  !*** C:/Code/Self/HBuilder/wechatGit/services/settingService.js ***!
+  \******************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -13727,9 +13727,9 @@ var _index = _interopRequireDefault(__webpack_require__(/*! ./../store/index.js 
 
 /***/ }),
 /* 67 */
-/*!********************************************************************!*\
-  !*** C:/Code/Self/HBuilder/uniUi/uniUi/utils/weiXinJsSdkHelper.js ***!
-  \********************************************************************/
+/*!******************************************************************!*\
+  !*** C:/Code/Self/HBuilder/wechatGit/utils/weiXinJsSdkHelper.js ***!
+  \******************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -13864,9 +13864,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /* 72 */,
 /* 73 */,
 /* 74 */
-/*!***************************************************************!*\
-  !*** C:/Code/Self/HBuilder/uniUi/uniUi/mixins/mobileMixin.js ***!
-  \***************************************************************/
+/*!*************************************************************!*\
+  !*** C:/Code/Self/HBuilder/wechatGit/mixins/mobileMixin.js ***!
+  \*************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -13907,9 +13907,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 75 */
-/*!***********************************************************************!*\
-  !*** C:/Code/Self/HBuilder/uniUi/uniUi/services/ticketTypeService.js ***!
-  \***********************************************************************/
+/*!*********************************************************************!*\
+  !*** C:/Code/Self/HBuilder/wechatGit/services/ticketTypeService.js ***!
+  \*********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -13942,9 +13942,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 76 */
-/*!*******************************************************************!*\
-  !*** C:/Code/Self/HBuilder/uniUi/uniUi/services/scenicService.js ***!
-  \*******************************************************************/
+/*!*****************************************************************!*\
+  !*** C:/Code/Self/HBuilder/wechatGit/services/scenicService.js ***!
+  \*****************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -13967,9 +13967,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 77 */
-/*!*******************************************************************!*\
-  !*** C:/Code/Self/HBuilder/uniUi/uniUi/services/memberService.js ***!
-  \*******************************************************************/
+/*!*****************************************************************!*\
+  !*** C:/Code/Self/HBuilder/wechatGit/services/memberService.js ***!
+  \*****************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -13999,9 +13999,8 @@ var _tokenService = _interopRequireDefault(__webpack_require__(/*! @/services/to
                                   self.setMember(res);
                                 }));case 5:response = _context3.sent;_context3.next = 10;break;case 8:_context3.next = 10;return (
 
-                                wx.getUserInfo({
+                                uni.getUserInfo({
                                   success: function success(rest) {return _asyncToGenerator( /*#__PURE__*/_regenerator.default.mark(function _callee2() {var params, response;return _regenerator.default.wrap(function _callee2$(_context2) {while (1) {switch (_context2.prev = _context2.next) {case 0:
-
                                               params = {
                                                 code: res.code,
                                                 userInfo: rest.userInfo };_context2.next = 3;return (
@@ -14054,9 +14053,9 @@ var _tokenService = _interopRequireDefault(__webpack_require__(/*! @/services/to
 
 /***/ }),
 /* 78 */
-/*!******************************************************************!*\
-  !*** C:/Code/Self/HBuilder/uniUi/uniUi/static/image/scenic1.jpg ***!
-  \******************************************************************/
+/*!****************************************************************!*\
+  !*** C:/Code/Self/HBuilder/wechatGit/static/image/scenic1.jpg ***!
+  \****************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -14064,9 +14063,9 @@ module.exports = "/static/image/scenic1.jpg";
 
 /***/ }),
 /* 79 */
-/*!******************************************************************!*\
-  !*** C:/Code/Self/HBuilder/uniUi/uniUi/static/image/scenic2.jpg ***!
-  \******************************************************************/
+/*!****************************************************************!*\
+  !*** C:/Code/Self/HBuilder/wechatGit/static/image/scenic2.jpg ***!
+  \****************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -14082,9 +14081,9 @@ module.exports = "/static/image/scenic2.jpg";
 /* 86 */,
 /* 87 */,
 /* 88 */
-/*!************************************************************!*\
-  !*** C:/Code/Self/HBuilder/uniUi/uniUi/utils/validator.js ***!
-  \************************************************************/
+/*!**********************************************************!*\
+  !*** C:/Code/Self/HBuilder/wechatGit/utils/validator.js ***!
+  \**********************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -14237,9 +14236,9 @@ validate;exports.default = _default;
 
 /***/ }),
 /* 89 */
-/*!**************************************************************!*\
-  !*** C:/Code/Self/HBuilder/uniUi/uniUi/utils/toastHelper.js ***!
-  \**************************************************************/
+/*!************************************************************!*\
+  !*** C:/Code/Self/HBuilder/wechatGit/utils/toastHelper.js ***!
+  \************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -14255,9 +14254,9 @@ validate;exports.default = _default;
 
 /***/ }),
 /* 90 */
-/*!**********************************************************************!*\
-  !*** C:/Code/Self/HBuilder/uniUi/uniUi/mixins/KeyboardPopupMixin.js ***!
-  \**********************************************************************/
+/*!********************************************************************!*\
+  !*** C:/Code/Self/HBuilder/wechatGit/mixins/KeyboardPopupMixin.js ***!
+  \********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -14289,9 +14288,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.keyboardPo
 /* 105 */,
 /* 106 */,
 /* 107 */
-/*!**********************************************************************!*\
-  !*** C:/Code/Self/HBuilder/uniUi/uniUi/static/image/portrait_bg.png ***!
-  \**********************************************************************/
+/*!********************************************************************!*\
+  !*** C:/Code/Self/HBuilder/wechatGit/static/image/portrait_bg.png ***!
+  \********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -14307,9 +14306,9 @@ module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHgAAAB4CAYAAAA5
 /* 114 */,
 /* 115 */,
 /* 116 */
-/*!********************************************************************!*\
-  !*** C:/Code/Self/HBuilder/uniUi/uniUi/services/paymentService.js ***!
-  \********************************************************************/
+/*!******************************************************************!*\
+  !*** C:/Code/Self/HBuilder/wechatGit/services/paymentService.js ***!
+  \******************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -14324,13 +14323,17 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
   jsApiPayAsync: function jsApiPayAsync(listNo) {return _asyncToGenerator( /*#__PURE__*/_regenerator.default.mark(function _callee2() {var response;return _regenerator.default.wrap(function _callee2$(_context2) {while (1) {switch (_context2.prev = _context2.next) {case 0:_context2.next = 2;return (
                 _ajax.default.post("/payment/JsApiPayAsync?listNo=".concat(listNo)));case 2:response = _context2.sent;return _context2.abrupt("return",
               response.result);case 4:case "end":return _context2.stop();}}}, _callee2);}))();
+  },
+  miniProgramPayAsync: function miniProgramPayAsync(listNo) {return _asyncToGenerator( /*#__PURE__*/_regenerator.default.mark(function _callee3() {var response;return _regenerator.default.wrap(function _callee3$(_context3) {while (1) {switch (_context3.prev = _context3.next) {case 0:_context3.next = 2;return (
+                _ajax.default.post("/payment/MiniprogramPayAsync?listNo=".concat(listNo)));case 2:response = _context3.sent;return _context3.abrupt("return",
+              response.result);case 4:case "end":return _context3.stop();}}}, _callee3);}))();
   } };exports.default = _default;
 
 /***/ }),
 /* 117 */
-/*!*******************************************************************!*\
-  !*** C:/Code/Self/HBuilder/uniUi/uniUi/services/commonService.js ***!
-  \*******************************************************************/
+/*!*****************************************************************!*\
+  !*** C:/Code/Self/HBuilder/wechatGit/services/commonService.js ***!
+  \*****************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -14372,9 +14375,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /* 124 */,
 /* 125 */,
 /* 126 */
-/*!***************************************************************!*\
-  !*** C:/Code/Self/HBuilder/uniUi/uniUi/utils/qrcodeHelper.js ***!
-  \***************************************************************/
+/*!*************************************************************!*\
+  !*** C:/Code/Self/HBuilder/wechatGit/utils/qrcodeHelper.js ***!
+  \*************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -14396,9 +14399,9 @@ var _ajax = _interopRequireDefault(__webpack_require__(/*! ./ajax.js */ 30));fun
 
 /***/ }),
 /* 127 */
-/*!****************************************************************************!*\
-  !*** C:/Code/Self/HBuilder/uniUi/uniUi/node_modules/qrcode/lib/browser.js ***!
-  \****************************************************************************/
+/*!**************************************************************************!*\
+  !*** C:/Code/Self/HBuilder/wechatGit/node_modules/qrcode/lib/browser.js ***!
+  \**************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -14481,9 +14484,9 @@ exports.toString = renderCanvas.bind(null, function (data, _, opts) {
 
 /***/ }),
 /* 128 */
-/*!********************************************************************************!*\
-  !*** C:/Code/Self/HBuilder/uniUi/uniUi/node_modules/qrcode/lib/can-promise.js ***!
-  \********************************************************************************/
+/*!******************************************************************************!*\
+  !*** C:/Code/Self/HBuilder/wechatGit/node_modules/qrcode/lib/can-promise.js ***!
+  \******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -14497,9 +14500,9 @@ module.exports = function () {
 
 /***/ }),
 /* 129 */
-/*!********************************************************************************!*\
-  !*** C:/Code/Self/HBuilder/uniUi/uniUi/node_modules/qrcode/lib/core/qrcode.js ***!
-  \********************************************************************************/
+/*!******************************************************************************!*\
+  !*** C:/Code/Self/HBuilder/wechatGit/node_modules/qrcode/lib/core/qrcode.js ***!
+  \******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -15005,9 +15008,9 @@ exports.create = function create(data, options) {
 
 /***/ }),
 /* 130 */
-/*!********************************************************************************************!*\
-  !*** C:/Code/Self/HBuilder/uniUi/uniUi/node_modules/qrcode/lib/utils/typedarray-buffer.js ***!
-  \********************************************************************************************/
+/*!******************************************************************************************!*\
+  !*** C:/Code/Self/HBuilder/wechatGit/node_modules/qrcode/lib/utils/typedarray-buffer.js ***!
+  \******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -15550,9 +15553,9 @@ module.exports = Array.isArray || function (arr) {
 
 /***/ }),
 /* 132 */
-/*!*******************************************************************************!*\
-  !*** C:/Code/Self/HBuilder/uniUi/uniUi/node_modules/qrcode/lib/core/utils.js ***!
-  \*******************************************************************************/
+/*!*****************************************************************************!*\
+  !*** C:/Code/Self/HBuilder/wechatGit/node_modules/qrcode/lib/core/utils.js ***!
+  \*****************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -15622,9 +15625,9 @@ exports.toSJIS = function toSJIS(kanji) {
 
 /***/ }),
 /* 133 */
-/*!************************************************************************************************!*\
-  !*** C:/Code/Self/HBuilder/uniUi/uniUi/node_modules/qrcode/lib/core/error-correction-level.js ***!
-  \************************************************************************************************/
+/*!**********************************************************************************************!*\
+  !*** C:/Code/Self/HBuilder/wechatGit/node_modules/qrcode/lib/core/error-correction-level.js ***!
+  \**********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -15681,9 +15684,9 @@ exports.from = function from(value, defaultValue) {
 
 /***/ }),
 /* 134 */
-/*!************************************************************************************!*\
-  !*** C:/Code/Self/HBuilder/uniUi/uniUi/node_modules/qrcode/lib/core/bit-buffer.js ***!
-  \************************************************************************************/
+/*!**********************************************************************************!*\
+  !*** C:/Code/Self/HBuilder/wechatGit/node_modules/qrcode/lib/core/bit-buffer.js ***!
+  \**********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -15727,9 +15730,9 @@ module.exports = BitBuffer;
 
 /***/ }),
 /* 135 */
-/*!************************************************************************************!*\
-  !*** C:/Code/Self/HBuilder/uniUi/uniUi/node_modules/qrcode/lib/core/bit-matrix.js ***!
-  \************************************************************************************/
+/*!**********************************************************************************!*\
+  !*** C:/Code/Self/HBuilder/wechatGit/node_modules/qrcode/lib/core/bit-matrix.js ***!
+  \**********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -15803,9 +15806,9 @@ module.exports = BitMatrix;
 
 /***/ }),
 /* 136 */
-/*!*******************************************************************************************!*\
-  !*** C:/Code/Self/HBuilder/uniUi/uniUi/node_modules/qrcode/lib/core/alignment-pattern.js ***!
-  \*******************************************************************************************/
+/*!*****************************************************************************************!*\
+  !*** C:/Code/Self/HBuilder/wechatGit/node_modules/qrcode/lib/core/alignment-pattern.js ***!
+  \*****************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -15895,9 +15898,9 @@ exports.getPositions = function getPositions(version) {
 
 /***/ }),
 /* 137 */
-/*!****************************************************************************************!*\
-  !*** C:/Code/Self/HBuilder/uniUi/uniUi/node_modules/qrcode/lib/core/finder-pattern.js ***!
-  \****************************************************************************************/
+/*!**************************************************************************************!*\
+  !*** C:/Code/Self/HBuilder/wechatGit/node_modules/qrcode/lib/core/finder-pattern.js ***!
+  \**************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -15926,9 +15929,9 @@ exports.getPositions = function getPositions(version) {
 
 /***/ }),
 /* 138 */
-/*!**************************************************************************************!*\
-  !*** C:/Code/Self/HBuilder/uniUi/uniUi/node_modules/qrcode/lib/core/mask-pattern.js ***!
-  \**************************************************************************************/
+/*!************************************************************************************!*\
+  !*** C:/Code/Self/HBuilder/wechatGit/node_modules/qrcode/lib/core/mask-pattern.js ***!
+  \************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -16169,9 +16172,9 @@ exports.getBestMask = function getBestMask(data, setupFormatFunc) {
 
 /***/ }),
 /* 139 */
-/*!***********************************************************************************************!*\
-  !*** C:/Code/Self/HBuilder/uniUi/uniUi/node_modules/qrcode/lib/core/error-correction-code.js ***!
-  \***********************************************************************************************/
+/*!*********************************************************************************************!*\
+  !*** C:/Code/Self/HBuilder/wechatGit/node_modules/qrcode/lib/core/error-correction-code.js ***!
+  \*********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16313,9 +16316,9 @@ exports.getTotalCodewordsCount = function getTotalCodewordsCount(version, errorC
 
 /***/ }),
 /* 140 */
-/*!**********************************************************************************************!*\
-  !*** C:/Code/Self/HBuilder/uniUi/uniUi/node_modules/qrcode/lib/core/reed-solomon-encoder.js ***!
-  \**********************************************************************************************/
+/*!********************************************************************************************!*\
+  !*** C:/Code/Self/HBuilder/wechatGit/node_modules/qrcode/lib/core/reed-solomon-encoder.js ***!
+  \********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16380,9 +16383,9 @@ module.exports = ReedSolomonEncoder;
 
 /***/ }),
 /* 141 */
-/*!************************************************************************************!*\
-  !*** C:/Code/Self/HBuilder/uniUi/uniUi/node_modules/qrcode/lib/core/polynomial.js ***!
-  \************************************************************************************/
+/*!**********************************************************************************!*\
+  !*** C:/Code/Self/HBuilder/wechatGit/node_modules/qrcode/lib/core/polynomial.js ***!
+  \**********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16452,9 +16455,9 @@ exports.generateECPolynomial = function generateECPolynomial(degree) {
 
 /***/ }),
 /* 142 */
-/*!**************************************************************************************!*\
-  !*** C:/Code/Self/HBuilder/uniUi/uniUi/node_modules/qrcode/lib/core/galois-field.js ***!
-  \**************************************************************************************/
+/*!************************************************************************************!*\
+  !*** C:/Code/Self/HBuilder/wechatGit/node_modules/qrcode/lib/core/galois-field.js ***!
+  \************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -18590,9 +18593,9 @@ exports.write = function (buffer, value, offset, isLE, mLen, nBytes) {
 
 /***/ }),
 /* 146 */
-/*!*********************************************************************************!*\
-  !*** C:/Code/Self/HBuilder/uniUi/uniUi/node_modules/qrcode/lib/core/version.js ***!
-  \*********************************************************************************/
+/*!*******************************************************************************!*\
+  !*** C:/Code/Self/HBuilder/wechatGit/node_modules/qrcode/lib/core/version.js ***!
+  \*******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -18763,9 +18766,9 @@ exports.getEncodedBits = function getEncodedBits(version) {
 
 /***/ }),
 /* 147 */
-/*!******************************************************************************!*\
-  !*** C:/Code/Self/HBuilder/uniUi/uniUi/node_modules/qrcode/lib/core/mode.js ***!
-  \******************************************************************************/
+/*!****************************************************************************!*\
+  !*** C:/Code/Self/HBuilder/wechatGit/node_modules/qrcode/lib/core/mode.js ***!
+  \****************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -18939,9 +18942,9 @@ exports.from = function from(value, defaultValue) {
 
 /***/ }),
 /* 148 */
-/*!***************************************************************************************!*\
-  !*** C:/Code/Self/HBuilder/uniUi/uniUi/node_modules/qrcode/lib/core/version-check.js ***!
-  \***************************************************************************************/
+/*!*************************************************************************************!*\
+  !*** C:/Code/Self/HBuilder/wechatGit/node_modules/qrcode/lib/core/version-check.js ***!
+  \*************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -18957,9 +18960,9 @@ exports.isValid = function isValid(version) {
 
 /***/ }),
 /* 149 */
-/*!*******************************************************************************!*\
-  !*** C:/Code/Self/HBuilder/uniUi/uniUi/node_modules/qrcode/lib/core/regex.js ***!
-  \*******************************************************************************/
+/*!*****************************************************************************!*\
+  !*** C:/Code/Self/HBuilder/wechatGit/node_modules/qrcode/lib/core/regex.js ***!
+  \*****************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -18997,9 +19000,9 @@ exports.testAlphanumeric = function testAlphanumeric(str) {
 
 /***/ }),
 /* 150 */
-/*!*************************************************************************************!*\
-  !*** C:/Code/Self/HBuilder/uniUi/uniUi/node_modules/qrcode/lib/core/format-info.js ***!
-  \*************************************************************************************/
+/*!***********************************************************************************!*\
+  !*** C:/Code/Self/HBuilder/wechatGit/node_modules/qrcode/lib/core/format-info.js ***!
+  \***********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -19035,9 +19038,9 @@ exports.getEncodedBits = function getEncodedBits(errorCorrectionLevel, mask) {
 
 /***/ }),
 /* 151 */
-/*!**********************************************************************************!*\
-  !*** C:/Code/Self/HBuilder/uniUi/uniUi/node_modules/qrcode/lib/core/segments.js ***!
-  \**********************************************************************************/
+/*!********************************************************************************!*\
+  !*** C:/Code/Self/HBuilder/wechatGit/node_modules/qrcode/lib/core/segments.js ***!
+  \********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -19374,9 +19377,9 @@ exports.rawSplit = function rawSplit(data) {
 
 /***/ }),
 /* 152 */
-/*!**************************************************************************************!*\
-  !*** C:/Code/Self/HBuilder/uniUi/uniUi/node_modules/qrcode/lib/core/numeric-data.js ***!
-  \**************************************************************************************/
+/*!************************************************************************************!*\
+  !*** C:/Code/Self/HBuilder/wechatGit/node_modules/qrcode/lib/core/numeric-data.js ***!
+  \************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -19426,9 +19429,9 @@ module.exports = NumericData;
 
 /***/ }),
 /* 153 */
-/*!*******************************************************************************************!*\
-  !*** C:/Code/Self/HBuilder/uniUi/uniUi/node_modules/qrcode/lib/core/alphanumeric-data.js ***!
-  \*******************************************************************************************/
+/*!*****************************************************************************************!*\
+  !*** C:/Code/Self/HBuilder/wechatGit/node_modules/qrcode/lib/core/alphanumeric-data.js ***!
+  \*****************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -19494,9 +19497,9 @@ module.exports = AlphanumericData;
 
 /***/ }),
 /* 154 */
-/*!***********************************************************************************!*\
-  !*** C:/Code/Self/HBuilder/uniUi/uniUi/node_modules/qrcode/lib/core/byte-data.js ***!
-  \***********************************************************************************/
+/*!*********************************************************************************!*\
+  !*** C:/Code/Self/HBuilder/wechatGit/node_modules/qrcode/lib/core/byte-data.js ***!
+  \*********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -19530,9 +19533,9 @@ module.exports = ByteData;
 
 /***/ }),
 /* 155 */
-/*!************************************************************************************!*\
-  !*** C:/Code/Self/HBuilder/uniUi/uniUi/node_modules/qrcode/lib/core/kanji-data.js ***!
-  \************************************************************************************/
+/*!**********************************************************************************!*\
+  !*** C:/Code/Self/HBuilder/wechatGit/node_modules/qrcode/lib/core/kanji-data.js ***!
+  \**********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -19593,9 +19596,9 @@ module.exports = KanjiData;
 
 /***/ }),
 /* 156 */
-/*!*****************************************************************************!*\
-  !*** C:/Code/Self/HBuilder/uniUi/uniUi/node_modules/dijkstrajs/dijkstra.js ***!
-  \*****************************************************************************/
+/*!***************************************************************************!*\
+  !*** C:/Code/Self/HBuilder/wechatGit/node_modules/dijkstrajs/dijkstra.js ***!
+  \***************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -19768,9 +19771,9 @@ if (true) {
 
 /***/ }),
 /* 157 */
-/*!************************************************************************************!*\
-  !*** C:/Code/Self/HBuilder/uniUi/uniUi/node_modules/qrcode/lib/renderer/canvas.js ***!
-  \************************************************************************************/
+/*!**********************************************************************************!*\
+  !*** C:/Code/Self/HBuilder/wechatGit/node_modules/qrcode/lib/renderer/canvas.js ***!
+  \**********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -19840,9 +19843,9 @@ exports.renderToDataURL = function renderToDataURL(qrData, canvas, options) {
 
 /***/ }),
 /* 158 */
-/*!***********************************************************************************!*\
-  !*** C:/Code/Self/HBuilder/uniUi/uniUi/node_modules/qrcode/lib/renderer/utils.js ***!
-  \***********************************************************************************/
+/*!*********************************************************************************!*\
+  !*** C:/Code/Self/HBuilder/wechatGit/node_modules/qrcode/lib/renderer/utils.js ***!
+  \*********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -19946,9 +19949,9 @@ exports.qrToImageData = function qrToImageData(imgData, qr, opts) {
 
 /***/ }),
 /* 159 */
-/*!*************************************************************************************!*\
-  !*** C:/Code/Self/HBuilder/uniUi/uniUi/node_modules/qrcode/lib/renderer/svg-tag.js ***!
-  \*************************************************************************************/
+/*!***********************************************************************************!*\
+  !*** C:/Code/Self/HBuilder/wechatGit/node_modules/qrcode/lib/renderer/svg-tag.js ***!
+  \***********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -20044,9 +20047,9 @@ exports.render = function render(qrData, options, cb) {
 /* 166 */,
 /* 167 */,
 /* 168 */
-/*!*******************************************************************!*\
-  !*** C:/Code/Self/HBuilder/uniUi/uniUi/services/ticketService.js ***!
-  \*******************************************************************/
+/*!*****************************************************************!*\
+  !*** C:/Code/Self/HBuilder/wechatGit/services/ticketService.js ***!
+  \*****************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -20212,9 +20215,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /* 243 */,
 /* 244 */,
 /* 245 */
-/*!*************************************************************************!*\
-  !*** C:/Code/Self/HBuilder/uniUi/uniUi/components/calendar/calendar.js ***!
-  \*************************************************************************/
+/*!***********************************************************************!*\
+  !*** C:/Code/Self/HBuilder/wechatGit/components/calendar/calendar.js ***!
+  \***********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 

@@ -1,16 +1,24 @@
 <template>
 	<div>
 		<view type="flex" align="center" class="poster margin-bottom-10">
-			<view span="8" class="poster-headimg"><img :src="headImgUrl" width="100%" /></view>
+			<view span="8" class="poster-headimg"><image :src="member.headImgUrl" class="head-image" /></view>
 			<view span="16">
 				<div class="poster-name margin-bottom-10">{{ member.name }}</div>
 				<div class="poster-name" v-if="member.customerName">{{ member.customerName }}</div>
 			</view>
 		</view>
 
-		<view>
-			<view title="我的门票" is-link icon="menpiao" to="/myticket" class="icon-vertical-center" @click="onMyTicket">我的门票</view>
-			<view title="登记人脸" is-link icon="menpiao" to="/myFace" class="icon-vertical-center" @click="onMyFace">登记人脸</view>
+		<view class="view-cell">
+			<view class="icon-vertical-center" @click="onMyTicket">
+				<view class="title-icon"><view class="iconfont icon-menpiao"></view></view>
+				<view class="title-text">我的门票</view>
+				<view class="title-arrow"><view class="iconfont icon-arrow"></view></view>
+			</view>
+			<view class="icon-vertical-center" @click="onMyFace">
+				<view class="title-icon"><view class="iconfont icon-face"></view></view>
+				<view class="title-text">登记人脸</view>
+				<view class="title-arrow"><view class="iconfont icon-arrow"></view></view>
+			</view>
 			<!-- <view
 				v-permission="[permissions.TMSWeChat_CheckTicket]"
 				title="门票核销"
@@ -78,12 +86,12 @@ export default {
 		}
 	},
 	methods: {
-		onMyTicket(){
+		onMyTicket() {
 			uni.navigateTo({
 				url: '/pages/member/my-ticket'
 			});
 		},
-		onMyFace(){
+		onMyFace() {
 			uni.navigateTo({
 				url: '/pages/member/enroll-face'
 			});
@@ -97,6 +105,8 @@ export default {
 	height: 100px;
 	color: white;
 	background-color: #19a0f0;
+	display: flex;
+	align-items: center;
 
 	&-headimg {
 		height: 60px;
@@ -110,10 +120,31 @@ export default {
 		font-weight: bold;
 		margin-left: 15px;
 	}
+
+	.head-image {
+		width: 100%;
+		height: 100%;
+	}
 }
-.icon-vertical-center {
-	/deep/ .view__left-icon {
-		margin-top: -2px;
+.view-cell {
+	background-color: #ffffff;
+	.icon-vertical-center {
+		/deep/ .view__left-icon {
+			margin-top: -2px;
+		}
+		display: flex;
+		align-items: center;
+		padding: 10px 16px 10px 0px;
+		margin-left: 16px;
+		border-bottom: 1px solid #efefef;
+		.title-icon {
+		}
+		.title-text {
+			width: calc(100vw - 60px);
+			padding: 0px 5px 0px 5px;
+		}
+		.title-arrow {
+		}
 	}
 }
 </style>

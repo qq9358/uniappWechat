@@ -357,7 +357,7 @@ export default {
 			}
 		},
 		buyAgain() {
-			uni.navigateTo({
+			uni.switchTab({
 				url: '/pages/index/index'
 			});
 		},

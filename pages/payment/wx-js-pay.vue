@@ -26,6 +26,7 @@ import dayjs from 'dayjs';
 import paymentService from './../../services/paymentService.js';
 import commonService from './../../services/commonService.js';
 import weiXinJsSdkHelper from './../../utils/weiXinJsSdkHelper.js';
+import toastHelper from '@/utils/toastHelper.js';
 
 export default {
 	data() {
@@ -53,7 +54,7 @@ export default {
 			if (order.expireSeconds <= 0) {
 				this.shouldConfirm = false;
 				this.$router.push({ name: 'tickettype' });
-				uni.redirectTo({
+				uni.showTabBar({
 					url: '/pages/index/index'
 				});
 				return;
@@ -126,14 +127,43 @@ export default {
 		async pay() {
 			try {
 				this.saving = true;
-
-				const payArgs = await paymentService.jsApiPayAsync(this.listNo);
+				let payArgs;
+				/* #ifdef MP-WEIXIN */
+				payArgs = await paymentService.miniProgramPayAsync(this.listNo);
+				let provider = await uni.getProvider();
+				console.log(provider);
+				let payObj = JSON.parse(payArgs);
+				await uni.requestPayment({
+					provider: provider,
+					timeStamp: payObj.timeStamp,
+					nonceStr: payObj.nonceStr,
+					package: payObj.package,
+					signType: payObj.signType,
+					paySign: payObj.paySign,
+					success: function(res){
+						console.log(res);
+					},
+					fail: function(err){
+						console.log(err);
+						if(err.errMsg != "requestPayment:fail cancel"){
+							commonService.logError(err.errMsg);
+							toastHelper.noneToast(err.errMsg);
+						}
+						return;
+					},
+					complete(res){
+						console.log(res);
+					}
+				})
+				/* #endif */
+				/* #ifndef MP */
+				payArgs = await paymentService.jsApiPayAsync(this.listNo);
 				await weiXinJsSdkHelper.jsApiPay(payArgs);
-
-				this.$toast.loading({
-					duration: 0,
-					message: '查询支付结果...',
-					className: 'van-toast-big'
+				/* #endif */
+				console.log(payArgs);
+				
+				uni.showLoading({
+					title: '查询支付结果...'
 				});
 
 				this.queryTimer = setInterval(() => {

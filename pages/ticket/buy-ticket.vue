@@ -143,7 +143,7 @@
 					<text class="price-label">总额：</text>
 					￥{{ price.toFixed(2) }}
 				</view>
-				<view class="book-button"><button @click="onSubmit" class="order-button">提交订单</button></view>
+				<view class="book-button"><button @click="onSubmit" class="order-button">{{submitText}}</button></view>
 			</view>
 		</view>
 
@@ -666,6 +666,7 @@ export default {
 			&-price {
 				text-align: right;
 				color: #f40;
+				font-size: 21px;
 
 				span {
 					font-size: 15px;

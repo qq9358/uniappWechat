@@ -24,12 +24,12 @@
 /* 垂直间距 */
 /* 透明度 */
 /* 文章场景相关 */
-.dategroup.data-v-2f9604b2 {
+.dategroup.data-v-242903b4 {
   background-color: white;
   font-size: 12px;
   padding: 10px 10px;
 }
-.dategroup-date.data-v-2f9604b2 {
+.dategroup-date.data-v-242903b4 {
     height: 45px;
     display: -webkit-box;
     display: -webkit-flex;
@@ -45,21 +45,21 @@
     border-radius: 5px;
     width: 22%;
 }
-.dategroup-date-text.data-v-2f9604b2 {
+.dategroup-date-text.data-v-242903b4 {
       font-size: 12px;
       line-height: 14px;
       color: #19a0f0;
 }
-.dategroup-date-price.data-v-2f9604b2 {
+.dategroup-date-price.data-v-242903b4 {
       font-weight: 400;
       line-height: 20px;
       font-size: 13px;
       color: #f40;
 }
-.dategroup-date-price ._span.data-v-2f9604b2 {
+.dategroup-date-price ._span.data-v-242903b4 {
         margin-right: 2px;
 }
-.dategroup-date-more.data-v-2f9604b2 {
+.dategroup-date-more.data-v-242903b4 {
       display: -webkit-box;
       display: -webkit-flex;
       display: flex;
@@ -70,18 +70,18 @@
       -webkit-align-items: center;
               align-items: center;
 }
-.dategroup-selected.data-v-2f9604b2 {
+.dategroup-selected.data-v-242903b4 {
     border: #19a0f0 solid 1px;
     background-size: 17px;
     position: relative;
 }
-.dategroup-disabled.data-v-2f9604b2 {
+.dategroup-disabled.data-v-242903b4 {
     color: #bbb;
 }
-.dategroup-disabled .dategroup-date-text.data-v-2f9604b2 {
+.dategroup-disabled .dategroup-date-text.data-v-242903b4 {
       color: #bbb;
 }
-.dategroup .date-item.data-v-2f9604b2 {
+.dategroup .date-item.data-v-242903b4 {
     display: -webkit-box;
     display: -webkit-flex;
     display: flex;

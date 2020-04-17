@@ -153,7 +153,7 @@ export default {
           message: `退订申请已提交,我们最晚在北京时间${lastTime}前为您处理`,
           confirmButtonText: "知道了"
         });
-        this.$router.go(-1);
+        uni.navigateBack();
       } catch (err) {
         return;
       } finally {

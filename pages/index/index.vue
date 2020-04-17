@@ -5,13 +5,25 @@
 				<swiper-item v-for="(imageItem, index) in images" :key="index"><image :src="imageItem" class="image-swiper"></image></swiper-item>
 			</swiper>
 		</view>
-		<view class="view-introduction" @click="onIntroduction">
-			<view class="introduction-title">
-				<text>{{ introductionTitle }}</text>
+		<view v-if="scenic.noticeTitle" @click="showNotice = true" class="scenic-event">
+			<view>
+				<text class="iconfont icon-gonggao"></text>
+				<span>{{ scenic.noticeTitle }}</span>
 			</view>
-			<view class="introduction-active">
+			<view class="scenic-more"><text class="iconfont icon-arrow"></text></view>
+		</view>
+		<view class="scenic-ext" @click="onIntroduction">
+			<view>
+				<view class="scenic-ext-title">
+					<span v-if="scenic.openText">开放时间</span>
+					<span>景区特色</span>
+					<span>景区简介</span>
+				</view>
+				<view v-if="scenic.openText" class="scenic-ext-word">{{ scenic.openText }}</view>
+			</view>
+			<view class="scenic-more">
 				<text class="active-text">详情</text>
-				<view class="iconfont icon-arrow"></view>
+				<text class="iconfont icon-arrow"></text>
 			</view>
 		</view>
 		<uni-popup ref="introductionPopup" type="bottom">
@@ -225,7 +237,7 @@ export default {
 			} else {
 				uni.navigateTo({
 					url: '/pages/ticket/buy-ticket?ticketTypeId=' + ticketType.id
-				})
+				});
 			}
 		},
 		onShowDescription(ticketType) {
@@ -270,7 +282,7 @@ export default {
 
 	.view-swiper {
 		.swiper {
-			height: 232px;
+			height: 210px;
 
 			.swiper-item {
 				height: 100%;
@@ -290,7 +302,70 @@ export default {
 
 			.image-swiper {
 				width: 100%;
+				height: 100%;
 			}
+		}
+	}
+
+	.scenic-event {
+		padding: 7px 15px;
+		color: #ff2f39;
+		border-bottom: 1px solid #dbdbdb;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		background-color: #ffffff;
+
+		.icon-gonggao {
+			margin-right: 5px;
+			font-size: 14px;
+		}
+	}
+
+	.scenic-ext {
+		padding: 13px 15px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		background-color: #ffffff;
+
+		&-title {
+			font-size: 15px;
+
+			span {
+				margin-right: 5px;
+			}
+		}
+
+		&-word {
+			margin-top: 8px;
+			line-height: 13px;
+			font-size: 12px;
+			color: #999;
+		}
+		
+		.iconfont{
+			font-size: 14px;
+		}
+	}
+
+	.scenic-more {
+		text-align: right;
+		line-height: 24px;
+		color: #999;
+
+		span {
+			display: inline-block;
+			vertical-align: middle;
+			margin: 0 6px;
+			height: 18px;
+			line-height: 18px;
+			font-size: 13px;
+		}
+
+		.iconfont {
+			vertical-align: middle;
+			font-size: 14px;
 		}
 	}
 

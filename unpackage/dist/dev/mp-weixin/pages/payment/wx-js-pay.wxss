@@ -24,39 +24,39 @@
 /* 垂直间距 */
 /* 透明度 */
 /* 文章场景相关 */
-.in-order.data-v-b98200ce {
+.in-order.data-v-3ae3412c {
   background-color: #fff;
   text-align: center;
   padding: 15px 15px;
 }
-.in-order-countdown.data-v-b98200ce {
+.in-order-countdown.data-v-3ae3412c {
     font-size: 13px;
     color: #999;
     line-height: 1;
 }
-.in-order-fee.data-v-b98200ce {
+.in-order-fee.data-v-3ae3412c {
     margin-top: 10px;
     line-height: 1;
     font-size: 30px;
     letter-spacing: -0.44px;
 }
-.in-order-fee-text.data-v-b98200ce {
+.in-order-fee-text.data-v-3ae3412c {
       font-size: 20px;
       margin-right: 8px;
 }
-.in-order-fee text.data-v-b98200ce {
+.in-order-fee text.data-v-3ae3412c {
       font-weight: 700;
 }
-.in-order-title.data-v-b98200ce {
+.in-order-title.data-v-3ae3412c {
     margin-top: 3px;
     font-size: 11px;
     color: #999;
 }
-.in-pay-method.data-v-b98200ce {
+.in-pay-method.data-v-3ae3412c {
   margin: 15px 0;
   background-color: #fff;
 }
-.in-pay-method-pay-type.data-v-b98200ce {
+.in-pay-method-pay-type.data-v-3ae3412c {
     padding: 0 20px;
     height: 70px;
     line-height: 70px;
@@ -67,22 +67,22 @@
     -webkit-align-items: center;
             align-items: center;
 }
-.in-pay-method-pay-type view.data-v-b98200ce {
+.in-pay-method-pay-type view.data-v-3ae3412c {
       vertical-align: middle;
       font-size: 25px;
       margin-right: 20px;
       color: #09bb07;
 }
-.in-pay-method-pay-type text.data-v-b98200ce {
+.in-pay-method-pay-type text.data-v-3ae3412c {
       display: inline-block;
       vertical-align: middle;
       font-size: 18px;
       font-weight: 600;
 }
-.in-button.data-v-b98200ce {
+.in-button.data-v-3ae3412c {
   padding: 0 15px;
 }
-.in-button button.data-v-b98200ce {
+.in-button button.data-v-3ae3412c {
     border-radius: 5px;
     height: 50px;
     line-height: 39px;

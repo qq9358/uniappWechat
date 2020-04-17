@@ -8,5 +8,9 @@ export default {
   async jsApiPayAsync(listNo) {
     let response = await ajax.post(`/payment/JsApiPayAsync?listNo=${listNo}`);
     return response.result;
+  },
+  async miniProgramPayAsync(listNo) {
+	  let response = await ajax.post(`/payment/MiniprogramPayAsync?listNo=${listNo}`);
+	  return response.result;
   }
 };
